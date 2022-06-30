@@ -1,4 +1,26 @@
 main{
  
   flex-grow: 1;
+  display: flex;
+}
+.content-container{
+  flex-grow: 1;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-container h1{
+  font-size: 7rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 4rem;
+}
+.content-container h1 span{
+  font-size: 2rem;
+  font-weight: 200;
+}
+.social-container{
+ width: 48px;
+  background-color: bisque;
 }
