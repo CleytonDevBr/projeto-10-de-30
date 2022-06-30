@@ -1,0 +1,17 @@
+header{
+  display: flex;
+  height: 36px;
+  justify-content: space-between;
+}
+.link-container{
+  display: flex;
+  gap: 30px;
+}
+.link-container a{
+  text-shadow: 2px 2px 3px #000;
+  transition: all 0.3s ease-in;
+  padding: 6px;
+}
+.link-container a:hover{
+  background-color: #E62721;
+}
