@@ -47,6 +47,11 @@ main{
   align-items: center;
 
 
+  
+}
+.movie-button:hover{
+  transform: scaleX(1.1);
+  transition: 0.5s;
 }
 .social-container{
  width: 48px;
@@ -77,4 +82,36 @@ main{
 .social-container li:hover{
   background-color: #E62721;
   border-color: #E62721;
+}
+@media (max-width:768px){
+  .content-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  .content-container h1{
+    font-size: 4rem;
+  }
+  .content-container h1 span{
+    font-size: 1.5rem;
+    transform: translateY(15px);
+  }
+  .movie-text{
+    display: none;
+    
+  }
+  .movie-title{
+    font-size: 1.45rem;
+    transform: translateY(5px);
+  }
+  .movie-button{
+    margin-top: 30px;
+  }
+  .movie-button:hover{
+    transform: scaleY(1px);
+  }
+  .social-container{
+    display: none;
+  }
 }

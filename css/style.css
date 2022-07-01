@@ -1,4 +1,7 @@
-
+html, body{
+  position: relative;
+  overflow: hidden;
+}
 
 body{
 height: 100vh;
@@ -14,7 +17,7 @@ padding: 80px 128px 50px 128px;
   body{ 
     padding: 30px 30px 25px 30px;
     background-image: url(../img/background.png);
-    background-color: #0008;
+    background-color: rgba(0, 0, 0, 0.568);
     background-blend-mode: darken;
   }
 }
