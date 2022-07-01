@@ -9,7 +9,7 @@ header{
 }
 .link-container a{
   text-shadow: 2px 2px 3px #000;
-  transition: all 0.3s ease-in;
+  transition: all 0.1s ease-in;
   padding: 6px;
 }
 .link-container a:hover{
