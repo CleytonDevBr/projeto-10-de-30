@@ -1,4 +1,9 @@
 footer{
-  background-color: azure;
-  height: 21px;
+ 
+  font-style: italic;
+}
+footer span{
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
 }
