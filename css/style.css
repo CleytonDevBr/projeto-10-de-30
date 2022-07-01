@@ -5,8 +5,17 @@ height: 100vh;
 background: linear-gradient( 90deg, #000  , #000d 30%, #000a 50%, #0000),
 url(../img/background.png);
 display: flex;
+background-position: right;
 flex-direction: column;
 padding: 80px 128px 50px 128px;
 }
 
+@media (max-width:768px) {
+  body{ 
+    padding: 30px 30px 25px 30px;
+    background-image: url(../img/background.png);
+    background-color: #0008;
+    background-blend-mode: darken;
+  }
+}
 
