@@ -11,6 +11,7 @@ display: flex;
 background-position: right;
 flex-direction: column;
 padding: 80px 128px 50px 128px;
+animation: zoom 1.5s ;
 }
 
 @media (max-width:768px) {
@@ -21,4 +22,13 @@ padding: 80px 128px 50px 128px;
     background-blend-mode: darken;
   }
 }
+@keyframes zoom{
+0%{
+  transform: scale(3);
+}
+100%{
+  transform: scale(1);
+}
+}
+
 
